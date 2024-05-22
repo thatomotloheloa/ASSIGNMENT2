@@ -1,0 +1,54 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* BorderPane styles */
+.border-pane {
+    -fx-padding: 20px;
+}
+
+/* Top (Question) Label styles */
+.label-question {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* Center (Options) VBox styles */
+.vbox-options {
+    -fx-spacing: 10px;
+}
+
+/* RadioButton styles */
+.radio-button {
+    -fx-font-size: 16px;
+}
+
+/* Bottom (Submit Button) VBox styles */
+.vbox-bottom {
+    -fx-spacing: 10px;
+}
+
+/* Right (Image) ImageView styles */
+.image-view {
+    -fx-padding: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+/* Left (Score and Result) VBox styles */
+.vbox-left {
+    -fx-spacing: 10px;
+}
+
+/* Score Label styles */
+.label-score {
+    -fx-font-weight: bold;
+}
+
+/* Result Label styles */
+.label-result {
+    -fx-font-style: italic;
+    -fx-text-fill: #ff0000; /* Red color */
+}
